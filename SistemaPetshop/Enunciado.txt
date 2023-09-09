@@ -1,0 +1,44 @@
+Enunciado: Você foi contratado para desenvolver um sistema de cobrança de banho para um petshop. Você ficou com a parte de desenvolver a interface com o funcionário.
+O petshop opera da seguinte maneira:
+⦁	Para cães com peso menor que 3 kg o valor base é de 40 reais;
+⦁	Para cães com peso igual ou maior que 3 kg e menor que 10 kg o valor base é de 50 reais;
+⦁	Para cães com peso igual ou maior que 10 kg e menor que 30kg o valor base é de 60 reais;  
+⦁	Para cães com peso igual ou maior que 30 kg e menor que 50kg o valor base é de 70 reais; 
+
+⦁	Para cães com pelo curto (c) o multiplicador é 1;
+⦁	Para cães com pelo médio (m) o multiplicador é 1.5;
+⦁	Para cães com pelo longo (l) o multiplicador é 2;
+
+⦁	Para o adicional de cortar unhas (1) do cachorro é cobrado um valor extra de 10 reais;
+⦁	Para o adicional de escovar os dentes (2) do cachorro é cobrado um valor extra de 12 reais;
+⦁	Para o adicional de limpar as orelhas (3) do cachorro é cobrado um valor extra de 15 reais;
+⦁	Para o adicional de não querer mais nada (0) é cobrado um valor extra de 0 reais;
+
+
+O valor final da conta é calculado da seguinte maneira:
+
+total = base * multiplicador + extra
+
+Elabore um programa em Python que: 
+ 
+⦁	Realizar o print uma mensagem de boas-vindas que apareça o seu nome;
+⦁	Deve-se criar uma função chamada cachorro_peso() em que: [EXIGÊNCIA DE CÓDIGO 1 de 6];
+⦁	Pergunta o peso do cachorro;
+⦁	Retorna o valor base com base no peso;
+⦁	Repete a pergunta do item B.a se peso for igual ou acima 50kg;
+⦁	Repete a pergunta do item B.a se digitar um valor não numérico;
+⦁	Deve-se criar uma função chamada cachorro_pelo() em que: [EXIGÊNCIA DE CÓDIGO 2 de 6];
+⦁	Pergunta o pelo do cachorro;
+⦁	Retorna o multiplicador com base nos itens descritos no enunciado;
+⦁	Repete a pergunta do item C.a se digitar uma opção diferente de: c/m/l;
+⦁	Deve-se criar uma função chamada cachorro_extra() em que: [EXIGÊNCIA DE CÓDIGO 3 de 6];
+⦁	Pergunta pelo serviço adicional;
+⦁	Acumular o valor extra de cada adicional;
+⦁	Repetir a pergunta item D.a enquanto não se digitar opção de: "não querer mais nada (0)";
+⦁	Quando digitar o adicional não querer mais nada (0) retornar o valor extra;
+⦁	Deve-se calcular o total a pagar na parte do main conforme descrito no enunciado [EXIGÊNCIA DE CÓDIGO 4 de 6];
+⦁	Deve-se utilizar try/except [EXIGÊNCIA DE CÓDIGO 5 de 6];
+⦁	Deve-se fazer comentários no código [EXIGÊNCIA DE CÓDIGO 6 de 6];
+⦁	Deve-se colocar na apresentação de saída de console um pedido no qual o usuário digitou um valor não numérico para o peso [EXIGÊNCIA DE SAÍDA DE CONSOLE 1 de 3];
+⦁	Deve-se colocar na apresentação de console um pedido no qual o usuário digitou um valor acima 50 para o peso [EXIGÊNCIA DE SAÍDA DE CONSOLE 2 de 3];
+⦁	Deve-se colocar na apresentação de console um pedido no qual o peso e o tipo de pelo sejam válidos e com mais 2 extras [EXIGÊNCIA DE SAÍDA DE CONSOLE 3 de 3];

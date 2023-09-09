@@ -1,0 +1,41 @@
+Enunciado: Você e sua equipe de programadores foram contratados por pequena empresa para desenvolver o software de gerencialme de pessoas. Este software deve ter o seguinte menu e opções:
+
+⦁	Cadastrar Colaborador
+⦁	Consultar Colaborador
+⦁	Consultar Todos 
+⦁	Consultar por Id;
+⦁	Consultar por Setor;
+⦁	Retornar ao menu;
+⦁	Remover Colaborador
+⦁	Encerrar Programa
+
+Elabore um programa em Python que: 
+ 
+⦁	Realizar o print uma mensagem de boas-vindas que apareça o seu nome;
+⦁	Deve-se criar uma lista vazia com o nome de lista_colaboradores e a variável id_global com valor inicial igual a 0 [EXIGÊNCIA DE CÓDIGO 1 de 7];
+⦁	Deve-se criar uma função chamada cadastrar_colaborador(id) em que: [EXIGÊNCIA DE CÓDIGO 2 de 7];
+⦁	Pergunta nome, setor, pagamento do colaborador;
+⦁	Armazena o id (este é fornecido via parâmetro da função), nome, setor, salário dentro de um dicionário;
+⦁	Copiar o dicionário dentro para dentro da da lista_colaboradores;
+⦁	Deve-se criar uma função chamada consultar_colaborador() em que: [EXIGÊNCIA DE CÓDIGO 3 de 7];
+⦁	Deve-se pergunta qual opção deseja (1. Consultar Todos / 2. Consultar por Id / 3. Consultar por Setor / 4. Retornar ao menu) e   realizar o print “Opção inválida" se entrar com valor diferente de 1, 2, 3 ou 4:
+⦁	Se Consultar Todos, apresentar todos os colaboradores com todos os seus dados cadastrados;
+⦁	Se Consultar por Id, apresentar o colaborador específico com todos os seus dados cadastrados;
+⦁	Se Consultar por Setor, apresentar todos os colaboradores do setor específico com todos os seus dados cadastrados;
+⦁	Se Retornar ao menu, deve-se retornar ao menu principal
+⦁	Deve-se criar uma função chamada remover_colaborador() em que: [EXIGÊNCIA DE CÓDIGO 4 de 7];
+⦁	Deve-se pergunta pelo id do colaborador a ser removido;
+⦁	Remover o colaborador da lista_colaboradores;
+⦁	Deve-se criar uma estrutura de menu no main em que: [EXIGÊNCIA DE CÓDIGO 5 de 7];
+⦁	Deve-se pergunta qual opção deseja (1. Cadastrar Colaborador / 2. Consultar Colaborador / 3. Remover Colaborador / 4. Encerrar Programa) e realizar o print “Opção inválida" se entrar com valor diferente de 1, 2, 3 ou 4 :
+⦁	Se Cadastrar Colaborador, acrescentar em um a variavel id_ global e chamar a função cadastrar_colaborador(id_ global);
+⦁	Se Consultar Colaborador, chamar função consultar_colaborador();
+⦁	Se Remover Colaborador, chamar função remover_colaborador();
+⦁	Se Encerrar Programa, sair do menu (e com isso acabar a execução do código);
+⦁	Deve-se utilizar lista de dicionários (uma lista contento dicionários dentro)  [EXIGÊNCIA DE CÓDIGO 6 de 7];
+⦁	Deve-se fazer comentários no código [EXIGÊNCIA DE CÓDIGO 7 de 7];
+⦁	Deve-se colocar na apresentação de saída de console o cadastro de 3 colaboradores (sendo 2 deles no mesmo setor) [EXIGÊNCIA DE SAÍDA DE CONSOLE 1 de 4];
+⦁	Deve-se colocar na apresentação de saída de console a consulta de todos os colaboradores [EXIGÊNCIA DE SAÍDA DE CONSOLE 1 de ];
+⦁	Deve-se colocar na apresentação de saída de console a consulta por código de um dos colaboradores [EXIGÊNCIA DE SAÍDA DE CONSOLE 2 de 4];
+⦁	Deve-se colocar na apresentação de saída de console a consulta por setor em que 2 colaboradores façam parte [EXIGÊNCIA DE SAÍDA DE CONSOLE 3 de 4];
+⦁	Deve-se colocar na apresentação de saída de console a remoção de um dos colaboradores e na sequência a consulta de todos os colaboradores [EXIGÊNCIA DE SAÍDA DE CONSOLE 4 de 4];
